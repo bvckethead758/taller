@@ -16,11 +16,17 @@ function Contador(props)  {
      
   const [valor, setValor] = useState(props.valorInicial);
 
+
+   
+
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Contador: {valor}</Text>
+
       <Button title="Incrementar" onPress={() => setValor(valor + 1)} />
       <Button title="Decrementar" onPress={() => setValor(valor - 1)} />
+      
+
     </View>
   );
 };
