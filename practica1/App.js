@@ -14,6 +14,8 @@ import ParentCounter from "./components/ParentCounter";
 import ImageGallery from "./components/ImageGallery";
 import Game from "./components/Game";
 
+//pantalla principal 
+
 export default function App() {
   const task = { completed: true };
    const mensaje = "hola"
